@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Animation</title>
+    <style>
+        #animatedElement {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="animatedElement"></div>
+
+    <script>
+        // Get the animated element
+        var animatedElement = document.getElementById('animatedElement');
+
+        // Initial position
+        var position = 0;
+
+        // Animation loop
+        function animate() {
+            // Increment position
+            position += 1;
+
+            // Update element's position
+            animatedElement.style.left = position + 'px';
+
+            // Request next frame
+            requestAnimationFrame(animate);
+        }
+
+        // Start animation
+        animate();
+    </script>
+</body>
+</html>
