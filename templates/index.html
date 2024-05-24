@@ -5,11 +5,28 @@
     <!-- D3 library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Plotly library -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" integrity="sha512-QmVjTECQsYWjmwCfxqyxDnOJLPQ1dB4t8SHz2vmZnPOUaVtHWSIu8jgvVGoumRUcS1rG/kHLqMehoejvMUXiCPg==" crossorigin="" referrerpolicy="no-referrer" />
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+      #map {
+          height:  400px;;
+          width: 50%;
+      }
+      </style>
   </head>
   <body>
-    <h1>Welcome to My Website</h1>  
-    <div id='plot'></div>
-	  <script src="{{ url_for('static', filename='js/plots.js') }}"></script>
+    <h1>Welcome to My Website</h1>
+    <div id="lineChart"></div>
+    <!-- <ul>
+      <li>
+        <a href="'/driver">Driver Data</a>
+      </li>
+      <li>
+        <a href="'/car">Car Data</a>
+      </li>
+    </ul> -->
+    <script src='../static/js/plots.js'></script>
   </body>
 </html>
