@@ -1,6 +1,10 @@
 # **formula1_analysis_dashboard** #
 --------------
 
+**Presentation Link:** 
+https://docs.google.com/presentation/d/1iB7PqZLQ2gz7fuGeYwSWBSEFUx63-OgPdEgqMPg19Uw/edit#slide=id.g6f39c49baf_3_2
+--------------
+
 ## **Project Goal:** ##
 This project aims to create an interactive dashboard for exploring Formula 1 Racing data spanning the last 75 years. It leverages a Flask backend to handle data extraction, transformation, storage, and visualization. The backend serves pre-processed JSON data tailored for three visualizations implemented using separate JavaScript libraries.
 
@@ -91,7 +95,7 @@ This Formula 1 data exploration project prioritizes responsible data handling pr
 ## Data Sources ##
 * Kaggle - Five CSV files regarding Formula 1 Racing Data: https://www.kaggle.com/datasets/jtrotman/formula-1-race-data?select=races.csv
 * Google - Generic Country Data: https://developers.google.com/public-data/docs/canonical/countries_csv
-* Google - Generic Nationality Data: 
+* Google - Generic Nationality Data: https://github.com/Imagin-io/country-nationality-list
 
 ---------------------------
 
