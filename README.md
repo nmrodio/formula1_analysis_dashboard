@@ -81,7 +81,7 @@ Three additional routes serve pre-processed JSON data tailored for the three vis
 
 ![Screenshot 2024-05-28 154306](https://github.com/nmrodio/formula1_analysis_dashboard/assets/157527614/74320a0d-3b4f-413c-9aca-20ad65300468)
 
-6. The linechart is the most interactive and has a dropdown menu that allows you change between manufacturers to see their fastest average lap speeds over the last 10 years
+6. The linechart is the most interactive and has a dropdown menu that allows you change between manufacturers to see their fastest average lap speeds over the last 10 years (2014-2024)
 
 ![Screenshot 2024-05-28 154339](https://github.com/nmrodio/formula1_analysis_dashboard/assets/157527614/bcc58933-4a78-462e-95cc-713ce4ce4f73)
 
@@ -95,7 +95,7 @@ This Formula 1 data exploration project prioritizes responsible data handling pr
 ## Data Sources ##
 * Kaggle - Five CSV files regarding Formula 1 Racing Data: https://www.kaggle.com/datasets/jtrotman/formula-1-race-data?select=races.csv
 * Google - Generic Country Data: https://developers.google.com/public-data/docs/canonical/countries_csv
-* Google - Generic Nationality Data: https://github.com/Imagin-io/country-nationality-list
+* Imagin-io - ISO Maintenance Agency's Nationality Data: https://github.com/Imagin-io/country-nationality-list
 
 ---------------------------
 
